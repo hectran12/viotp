@@ -204,7 +204,7 @@ namespace viotp
                 status_code = (int)jContent["status_code"];
                 status_message = (string)jContent["message"];
                 status_success = (string)jContent["success"];
-                Console.WriteLine(content);
+               
                 Number num = new Number();
 
                 if(status_code == 200)
